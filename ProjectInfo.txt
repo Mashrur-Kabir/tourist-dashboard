@@ -39,3 +39,4 @@ How it works:
 
 to run- streamlit run dashboard.py
 
+deployed at- https://tourist-dashboard-bsprl66bmpxqykmwttdgbp.streamlit.app/
