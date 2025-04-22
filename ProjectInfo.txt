@@ -1,0 +1,41 @@
+
+Project Title: Tourist Informatics 
+
+Tools used:
+
+*Python as the programming programming language
+*Streamlit for interactive web dashboard
+*Pandas for handling data filtering and analysis
+*Matplotlib for data visualization (pie and bar charts)
+*openpyxl for reading Excel files
+*VS Code as the code editor
+
+Functionalities:
+
+This dashboard helps analyzing tourist data after the user uploads an excel or csv file with necessary columns. We can use it to:
+
+- Upload a CSV or Excel file from your computer  
+- See a filtered list of tourists based on country and destination  
+- View summary statistics like average duration of stay and average tourist rating  
+- See a bar chart showing how many tourists gave each rating (from 1 to 5)
+- See a pie chart showing distribution of tourists by destination
+- Download the filtered data as CSV directly from the dashboard
+
+How it works:
+   * You start by uploading a CSV or Excel file that contains tourist data.
+   * The dashboard waits until you upload a file — nothing shows by default.
+   * It checks that your file has all the required columns:  
+     `Name`, `Country`, `Destination`, `Duration`, `Rating`
+   * Once uploaded, you can select:
+     - A specific country (e.g., USA)
+     - A specific destination (e.g., Cox's Bazar)
+   * It calculates and displays:
+     - Average duration of stay (how many days tourists stayed)
+     - Average rating (tourist satisfaction out of 5)
+   * It draws two different charts:
+     - A bar chart showing how many tourists gave each rating
+     - A pie chart showing how tourists are distributed across destinations
+   * It provides a download button to save the filtered data as a CSV file for further use.
+
+to run- streamlit run dashboard.py
+
